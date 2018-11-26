@@ -1,7 +1,5 @@
 # Deep Progressive Quantization
 
-*############################## A CONFIDENTIAL commit ##############################*
-
 A python implementation of **Deep Progressive Quantization**. Please refer to [paper link](https://github.com) for detailed infomation. The python scripts include following experiments:
 
 - Training a model and Encoding a database [main.py](./main.py)
