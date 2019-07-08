@@ -22,6 +22,8 @@ The scripts has been tested on a machine equipped with:
 - RAM: 128 GB (Please note that we didn't optimize memory usage, so the memory consumption would be very large)
 - OS: Ubuntu 16.04 LTS
 
+Please download AlexNet pretrianed model from ()()() and place it into `./data/models/`
+
 ### Dataset Preparation
 
 CIFAR-10:
@@ -30,7 +32,7 @@ CIFAR-10:
 - Query set: 1000
 - database: 54000
 
-You can use the splitted version of CIFAR-10 (already in /data/cifar), or you can also [download it](https://www.cs.toronto.edu/~kriz/cifar.html) and split it as the paper described.
+You should split CIFAR-10 by yourself. [Download it](https://www.cs.toronto.edu/~kriz/cifar.html) and split it as the paper described.
 
 ---
 
