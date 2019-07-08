@@ -1,6 +1,6 @@
 # Deep Progressive Quantization
 
-A python implementation of **Deep Progressive Quantization**. Please refer to [paper link](https://github.com) for detailed infomation. The python scripts include following experiments:
+This is the python implementation of **Beyond Product Quantization: Deep Progressive Quantization for Image Retrieval** (IJCAI-19 accepted). Please refer to [paper link](http://arxiv.org/abs/1906.06698) for detailed infomation. The python scripts include following experiments:
 
 - Training a model and Encoding a database [main.py](./main.py)
 - Evaluating AQD mAP on query set [Eval.py](./Eval.py)
@@ -99,5 +99,23 @@ To perform an evaluation:
 
     python Eval.py --Dataset='CIFAR' --ClassNum=10 --Device=0 --R=-1
 
-## Acknowledges
+## Citations
 
+Please use the following bibtex to cite our papers:
+
+```
+@inproceedings{DPQ,
+  title={Beyond Product Quantization: Deep Progressive Quantization for Image Retrieval},
+  author={Gao, Lianli and Zhu, Xiaosu and Song, Jingkuan and Zhao, Zhou and Shen, Heng Tao},
+  booktitle={Proceedings of the 2019 International Joint Conferences on Artifical Intelligence (IJCAI)},
+  year={2019}
+}
+```
+```
+@inproceedings{DRQ,
+  title={Deep Recurrent Quantization for Generating Sequential Binary Codes},
+  author={Song, Jingkuan and Zhu, Xiaosu and Gao, Lianli and Xu, Xin-Shun and Liu, Wu and Shen, Heng Tao},
+  booktitle={Proceedings of the 2019 International Joint Conferences on Artifical Intelligence (IJCAI)},
+  year={2019}
+}
+```
