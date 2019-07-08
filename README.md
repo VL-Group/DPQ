@@ -8,10 +8,10 @@ This is the python implementation of **Beyond Product Quantization: Deep Progres
 - Evaluating classification accuracy [Accuracy.py](./Accuracy.py)
 - Checking time consumption [Time.py](./Time.py)
 
-## Requirements
+## Preliminaries
 
 The scripts require following package:
-- tensorflow (>= 1.4.1)
+- tensorflow (>= 1.4.1, either cpu or gpu version)
 - numpy (>=1.14.3)
 - scikit-learn (>=0.19.1)
 - opencv-python (>=3.4)
@@ -20,6 +20,7 @@ The scripts has been tested on a machine equipped with:
 - CPU: Intel(R) Xeon(R) CPU E5-2620 V4
 - GPU: NVIDIA Titan X Pascal
 - RAM: 128 GB (Please note that we didn't optimize memory usage, so the memory consumption would be very large)
+- OS: Ubuntu 16.04 LTS
 
 ### Dataset Preparation
 
