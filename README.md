@@ -16,7 +16,7 @@ The scripts require following package:
 - scikit-learn (>=0.19.1)
 - opencv-python (>=3.4)
 
-The scripts has been tested on a machine equipped with:
+The scripts have been tested on a machine equipped with:
 - CPU: Intel(R) Xeon(R) CPU E5-2620 V4
 - GPU: NVIDIA Titan X Pascal
 - RAM: 128 GB (Please note that we didn't optimize memory usage, so the memory consumption would be very large)
