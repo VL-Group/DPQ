@@ -40,7 +40,7 @@ NUS-WIDE:
 
 - Training set: 10000
 - Query set: 5000
-- database: 190834
+- Gallery: 190834
 
 Please [download the dataset](https://github.com/lhmRyan/deep-supervised-hashing-DSH/issues/8#issuecomment-314314765) and put it into a specific directory. Then you should modify the prefixs of all paths in [/data/nus21](./data/nus21)
 
@@ -50,7 +50,7 @@ Imagenet:
 
 - Training set: 10000
 - Query set: 5000
-- database: 128564
+- Gallery: 128564
 
 Please download the dataset (ILSVRC >= 2012) and put it into a specific directory. Then you should modify the prefixs of all paths in [/data/imagenet](./data/imagenet)
 
