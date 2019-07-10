@@ -30,7 +30,7 @@ CIFAR-10:
 
 - Training set: 5000
 - Query set: 1000
-- database: 54000
+- Gallery: 54000
 
 You should split CIFAR-10 by yourself. [Download it](https://www.cs.toronto.edu/~kriz/cifar.html) and split it as the paper described.
 
