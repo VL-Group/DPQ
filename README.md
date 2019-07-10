@@ -8,7 +8,7 @@ This is the python implementation of **Beyond Product Quantization: Deep Progres
 - Evaluating classification accuracy [Accuracy.py](./Accuracy.py)
 - Checking time consumption [Time.py](./Time.py)
 
-## Preliminaries
+## Prerequisites
 
 The scripts require following package:
 - tensorflow (>= 1.4.1, either cpu or gpu version)
