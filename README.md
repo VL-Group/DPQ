@@ -1,6 +1,6 @@
 # Deep Progressive Quantization
 
-This is the python implementation of **Beyond Product Quantization: Deep Progressive Quantization for Image Retrieval** (IJCAI-19 accepted). Please refer to [paper link](http://arxiv.org/abs/1906.06698) for detailed infomation. The python scripts include following experiments:
+This is the python implementation of **Beyond Product Quantization: Deep Progressive Quantization for Image Retrieval** (IJCAI-19 accepted). Please refer to [paper link](https://www.ijcai.org/proceedings/2019/0102.pdf) for detailed infomation. The python scripts include following experiments:
 
 - Training a model and Encoding a database [main.py](./main.py)
 - Evaluating AQD mAP on query set [Eval.py](./Eval.py)
